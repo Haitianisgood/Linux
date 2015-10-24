@@ -1,4 +1,7 @@
 #  Ubuntu 中执行history命令显示时间：
+
+介绍四种方式：
+
 **1. 修改/etc/profile，在最后添加下面一行**
 
 `export HISTTIMEFORMAT="%F %T `whoami` "`
